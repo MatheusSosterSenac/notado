@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+}
+
+.logo{
+    width: 50px;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    background-color: #6d889e; /* Cor de fundo do header */
+    color: #f1ebeb; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhar o conteúdo no centro */
+    margin-bottom: 10px;
+    height: max-content;
+    line-height: 40px;
+    margin: 0;
+}
+
+.navbartext {
+    color: white;
+    font-size: 27px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  /* Estilo para o título do header */
+  header h1 {
+    margin: 0; /* Remover margem padrão */
+  }
+  
+  /* Estilo para a barra de navegação */
+  nav {
+    margin-top: 10px; /* Espaçamento acima da barra de navegação */
+  }
+  
+  /* Estilo para os links na barra de navegação */
+  nav a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    padding: 0 10px; /* Espaçamento interno dos links */
+    border-radius: 10px;
+  }
+  
+  /* Estilo para os links na barra de navegação quando hover */
+  nav a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+  }
+  

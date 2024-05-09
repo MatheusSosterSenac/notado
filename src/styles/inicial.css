@@ -1,0 +1,87 @@
+.foto{
+    width: 100px;
+}
+
+/* inicial.css */
+
+/* Estilos para o container principal */
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para o título principal */
+  .titulo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a lista de produtos */
+  .lista-produtos {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .lista-produtos li {
+    margin-bottom: 10px;
+  }
+  
+  .lista-produtos a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos para os itens em destaque */
+  .destaque-container {
+    margin-bottom: 40px;
+  }
+  
+  .destaque-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .destaque-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .destaque-item img.foto {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .destaque-text {
+    flex-grow: 1;
+  }
+  
+  .destaque-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .destaque-text h5 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .destaque-text p {
+    margin-bottom: 10px;
+  }
+  
+  .saiba-mais-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .saiba-mais-link:hover {
+    text-decoration: underline;
+  }
+  
